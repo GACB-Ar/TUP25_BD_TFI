@@ -1,5 +1,4 @@
 USE TFI
-DROP TABLE IF EXISTS Tecnico
 CREATE TABLE Tecnico (
 	Legajo INT PRIMARY KEY,
 	FOREIGN KEY (Legajo) REFERENCES Empleado(Legajo)
