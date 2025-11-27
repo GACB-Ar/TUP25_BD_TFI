@@ -1,3 +1,3 @@
 USE TFI
-DELETE FROM MaquinaExpendedora
-WHERE NroSerie = 5;
+DELETE FROM MAQUINA
+WHERE nroSerie = 6001;

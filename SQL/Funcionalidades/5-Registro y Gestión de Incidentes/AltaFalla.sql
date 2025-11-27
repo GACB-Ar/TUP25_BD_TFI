@@ -1,5 +1,5 @@
 USE TFI
-INSERT INTO Falla
-(Descripcion, TipoFalla, FechaReporte, Estado, NroSerie, LegajoEmpleado)
+INSERT INTO FALLA
+(IDFalla, descripcion, tipoFalla, fechaReporte, estado, legajo, nroSerie)
 VALUES
-	('No expende producto', 'Mec·nica', GETDATE(), 'Pendiente', 3, 1);
+(4001, 'No acepta billetes', 'Mec√°nica', GETDATE(), 'Pendiente', 101, 5001);

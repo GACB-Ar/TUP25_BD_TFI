@@ -1,4 +1,4 @@
 USE TFI
 SELECT *
-FROM Visita
-WHERE LegajoRepositor = 1;
+FROM VISITA
+WHERE LegajoRepositor = 101;

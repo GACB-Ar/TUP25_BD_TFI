@@ -1,5 +1,5 @@
 USE TFI
-INSERT INTO Visita
-(fechaHoraInicio, fechaHoraFin, Observaciones, IDRuta, LegajoRepositor)
+INSERT INTO VISITA
+(IDVisita, fechaHoraInicio, fechaHoraFin, observaciones, IDRuta, LegajoRepositor, nroSerie)
 VALUES
-	(GETDATE(), DATEADD(MINUTE, 20, GETDATE()), 'Todo OK', 3, 1);
+(6001, GETDATE(), DATEADD(MINUTE, 15, GETDATE()), 'Sin novedades', 5001, 101, 5001);

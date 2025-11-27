@@ -1,4 +1,4 @@
 USE TFI
 SELECT *
-FROM Mantenimiento
-WHERE NroSerie = 2;
+FROM MANTENIMIENTO
+WHERE nroSerie = 5001;

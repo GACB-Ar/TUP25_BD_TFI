@@ -1,5 +1,5 @@
 USE TFI
-UPDATE MaquinaExpendedora
-SET EstadoOperativo = 'Fuera de servicio',
-    Ubicacion = 'Depósito'
-WHERE NroSerie = 3;
+UPDATE MAQUINA
+SET estadoOperativo = 'En mantenimiento',
+    ubicacion = 'DepÃ³sito'
+WHERE nroSerie = 5001;

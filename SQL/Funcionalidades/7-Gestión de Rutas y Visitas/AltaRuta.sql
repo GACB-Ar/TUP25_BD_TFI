@@ -1,5 +1,3 @@
 USE TFI
-INSERT INTO Ruta
-(Fecha, LegajoRepositor, Patente)
-VALUES
-	('2025-02-02', 1, 'AB123CD');
+INSERT INTO RUTA (IDRuta, fecha, legajo, patente)
+VALUES (5001, '2025-02-05', 101, 'AA123BB');

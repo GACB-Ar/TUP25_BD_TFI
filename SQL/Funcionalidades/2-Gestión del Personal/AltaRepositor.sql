@@ -1,3 +1,3 @@
 USE TFI
-INSERT INTO Repositor (Legajo)
-VALUES (6);
+INSERT INTO REPOSITOR (legajo)
+VALUES (201);

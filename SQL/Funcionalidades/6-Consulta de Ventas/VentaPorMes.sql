@@ -1,8 +1,8 @@
 USE TFI
-SELECT 
-    YEAR(FechaHora) AS Año,
-    MONTH(FechaHora) AS Mes,
-    SUM(PrecioTotal) AS TotalVentas
-FROM Venta
-GROUP BY YEAR(FechaHora), MONTH(FechaHora)
-ORDER BY Año, Mes;
+SELECT
+    YEAR(fechaHora) AS AÃ±o,
+    MONTH(fechaHora) AS Mes,
+    SUM(precioTotal) AS Total
+FROM VENTA
+GROUP BY YEAR(fechaHora), MONTH(fechaHora)
+ORDER BY AÃ±o, Mes;

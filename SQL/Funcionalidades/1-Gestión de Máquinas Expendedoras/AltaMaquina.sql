@@ -1,5 +1,4 @@
 USE TFI
-INSERT INTO MaquinaExpendedora
-(Descripcion, EstadoOperativo, Ubicacion, Marca, Modelo, IDEstablecimiento)
-VALUES
-	('Máquina Pepsi', 'Operativa', 'Hall principal', 'Pepsi', 'PX-300', 1);
+INSERT INTO MAQUINA (nroSerie, descripcion, estadoOperativo, ubicacion, marca, modelo, CUIT)
+VALUES (6001, 'MÃ¡quina Coca-Cola', 'Operativa', 'Hall central', 'Coca-Cola', 'CX-500', '20300000011');
+

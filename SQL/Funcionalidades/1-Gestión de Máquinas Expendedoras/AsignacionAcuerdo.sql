@@ -1,4 +1,12 @@
 USE TFI
-UPDATE MaquinaExpendedora
-SET IDEstablecimiento = 2
-WHERE NroSerie = 4;
+UPDATE MAQUINA
+SET CUIT = '20300000015'   
+WHERE nroSerie = 5001
+AND EXISTS (
+    SELECT 1
+    FROM ACUERDO
+    WHERE ACUERDO.CUIT = '20300000015'
+      AND FechaInicio <= GETDATE()
+      AND FechaFin   >= GETDATE()
+);
+

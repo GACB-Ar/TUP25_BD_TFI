@@ -1,5 +1,5 @@
 USE TFI
-INSERT INTO Mantenimiento
-(Tipo, Fecha, Descripcion, Costo, NroSerie, LegajoTecnico)
+INSERT INTO MANTENIMIENTO
+(IDMantenimiento, tipo, fecha, descripcion, costo, legajo, nroSerie)
 VALUES
-	('Correctivo', '2025-01-05', 'Cambio de aceptador de billetes', 8500.00, 2, 5);
+(3001, 'Preventivo', '2025-02-02', 'Limpieza general', 2500.00, 102, 5001);

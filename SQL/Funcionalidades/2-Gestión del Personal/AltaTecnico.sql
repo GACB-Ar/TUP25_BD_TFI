@@ -1,3 +1,3 @@
 USE TFI
-INSERT INTO Tecnico (Legajo)
-VALUES (2);
+INSERT INTO TECNICO (legajo)
+VALUES (10);

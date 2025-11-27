@@ -1,5 +1,4 @@
 USE TFI
 SELECT *
-FROM Mantenimiento
-WHERE Tipo = 'Preventivo'
-  AND Fecha > GETDATE();
+FROM MANTENIMIENTO
+WHERE fecha > GETDATE();

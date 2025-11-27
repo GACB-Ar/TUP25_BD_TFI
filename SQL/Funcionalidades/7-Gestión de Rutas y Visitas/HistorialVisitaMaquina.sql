@@ -1,5 +1,4 @@
 USE TFI
-SELECT V.*
-FROM Visita V INNER JOIN Contiene C 
-	ON V.IDRuta = C.NroSerie
-WHERE C.NroSerie = 4;
+SELECT *
+FROM VISITA
+WHERE nroSerie = 5001;

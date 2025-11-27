@@ -1,5 +1,4 @@
 USE TFI
-INSERT INTO Acuerdo
-(FechaInicio, FechaFin, TipoCondicion, ValorCondicion, Condiciones, IDEstablecimiento)
-VALUES
-	('2024-01-01', '2024-12-31', 'Comisión', 15.00, '15% sobre ventas', 3);
+INSERT INTO ACUERDO (IDAcuerdo, fechaInicio, fechaFin, tipoCondicion, valorCondicion, condiciones, CUIT)
+VALUES (2001, '2024-02-01', '2025-02-01', 'Comision', 12.50, '12,5% sobre ventas', '20300000011');
+

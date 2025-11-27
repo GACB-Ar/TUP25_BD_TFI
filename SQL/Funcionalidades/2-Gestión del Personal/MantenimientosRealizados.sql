@@ -1,5 +1,4 @@
 USE TFI
-SELECT M.*
-FROM Mantenimiento M INNER JOIN Tecnico T 
-	ON M.LegajoTecnico = T.Legajo
-WHERE T.Legajo = 2;
+SELECT IDMantenimiento, fecha, tipo, descripcion, costo, nroSerie
+FROM MANTENIMIENTO
+WHERE legajo = 102;

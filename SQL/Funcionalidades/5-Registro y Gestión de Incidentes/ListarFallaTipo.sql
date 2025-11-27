@@ -1,4 +1,4 @@
 USE TFI
 SELECT *
-FROM Falla
-WHERE TipoFalla = 'Eléctrica';
+FROM FALLA
+WHERE tipoFalla = 'MecÃ¡nica';

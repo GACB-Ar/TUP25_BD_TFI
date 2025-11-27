@@ -1,4 +1,4 @@
 USE TFI
 SELECT *
-FROM Falla
-WHERE Estado = 'Pendiente';
+FROM FALLA
+WHERE estado = 'Pendiente';
