@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Pago (FechaPago, MontoAbonado, FormaPago, IDLiquidacion)
-VALUES
-	('2024-10-05', 20000.00, 'Transferencia', 1),
-	('2024-10-06', 18000.00, 'Efectivo', 2),
-	('2024-10-07', 15000.00, 'Transferencia', 3),
-	('2024-10-08', 17000.00, 'Cheque', 4),
-	('2024-10-09', 22000.00, 'Transferencia', 5);
+INSERT INTO PAGO VALUES
+(1,'2024-01-15','Transferencia',15000,10),
+(2,'2024-01-16','Efectivo',18000,11),
+(3,'2024-01-17','Transferencia',12000,12),
+(4,'2024-01-18','Cheque',25000,13),
+(5,'2024-01-19','Efectivo',9000,14);

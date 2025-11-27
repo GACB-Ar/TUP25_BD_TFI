@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Visita (fechaHoraInicio, fechaHoraFin, Observaciones, IDRuta, LegajoRepositor)
-VALUES
-	('2024-10-01 08:00', '2024-10-01 09:00', 'Revisi髇 completa', 1, 1),
-	('2024-10-02 10:00', '2024-10-02 10:30', 'Sin incidencias', 2, 3),
-	('2024-10-03 11:00', '2024-10-03 12:00', 'Reposici髇 parcial', 3, 1),
-	('2024-10-04 09:00', '2024-10-04 10:15', 'Cliente ausente', 4, 3),
-	('2024-10-05 14:00', '2024-10-05 15:00', 'Mantenimiento preventivo', 5, 1);
+INSERT INTO VISITA VALUES
+(1,'2024-01-10 09:00','2024-01-10 09:30','Reposici贸n parcial',1,100,5001),
+(2,'2024-01-10 10:00','2024-01-10 10:20','Reposici贸n completa',1,100,5002),
+(3,'2024-01-11 11:00','2024-01-11 11:40','Revisi贸n general',2,100,5003),
+(4,'2024-01-12 09:30','2024-01-12 10:00','Reposici贸n baja',3,101,5004),
+(5,'2024-01-13 08:50','2024-01-13 09:10','Chequeo r谩pido',4,101,5005);

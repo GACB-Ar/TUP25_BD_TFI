@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Empleado (Nombre, Apellido, DNI, Telefono, CorreoElectronico, Puesto, FechaIngreso)
-VALUES
-	('Juan', 'PÈrez', '30123456', '3624789012', 'juan.perez@gmail.com', 'Repositor', '2020-01-15'),
-	('MarÌa', 'LÛpez', '31234567', '3624679023', 'maria.lopez@hotmail.com', 'TÈcnico', '2019-03-22'),
-	('Carlos', 'GÛmez', '32345678', '3624678034', 'carlos.gomez@yahoo.com', 'Repositor', '2021-07-10'),
-	('Laura', 'MartÌnez', '33456789', '3625678945', 'laura.martinez@gmail.com', 'TÈcnico', '2018-05-01'),
-	('Pedro', 'Fern·ndez', '34567890', '3625678906', 'pedro.fernandez@gmail.com', 'Administrador', '2017-09-18');
+INSERT INTO EMPLEADO VALUES
+(100, 'Juan', 'P√©rez', '30111222', '1155551111', 'juan@example.com', 'Repositor', '2020-01-10'),
+(101, 'Mar√≠a', 'G√≥mez', '28990333', '1155552222', 'maria@example.com', 'Repositor', '2019-03-15'),
+(102, 'Carlos', 'L√≥pez', '31222444', '1155553333', 'carlos@example.com', 'T√©cnico', '2018-07-20'),
+(103, 'Ana', 'Mart√≠nez', '27666555', '1155554444', 'ana@example.com', 'T√©cnico', '2021-02-05'),
+(104, 'Pedro', 'Su√°rez', '30999888', '1155555555', 'pedro@example.com', 'Administrativo', '2017-11-01');

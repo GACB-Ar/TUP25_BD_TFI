@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Incluye (IDCompra, CodProducto, Cantidad, PrecioUnitario)
-VALUES
-	(1, 1, 100, 200.00),
-	(1, 2, 80, 150.00),
-	(2, 3, 90, 120.00),
-	(3, 4, 70, 180.00),
-	(4, 5, 60, 160.00);
+INSERT INTO INCLUYE VALUES
+(101,1,50,400),
+(102,1,30,600),
+(103,2,40,300),
+(104,3,20,1200),
+(105,4,60,350);

@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Falla (Descripcion, TipoFalla, FechaReporte, Estado, NroSerie, LegajoEmpleado)
-VALUES
-	('No enfría', 'Eléctrica', '2024-09-02', 'Reparada', 3, 1),
-	('Pantalla apagada', 'Display', '2024-09-05', 'Pendiente', 4, 3),
-	('No entrega producto', 'Mecánica', '2024-09-07', 'En revisión', 1, 1),
-	('Error de pago', 'Software', '2024-09-10', 'Resuelta', 2, 3),
-	('Ruido extraño', 'Mecánica', '2024-09-15', 'Reparada', 5, 1);
+INSERT INTO FALLA VALUES
+(1,'No enfrÃ­a','RefrigeraciÃ³n','2024-01-03','Pendiente',100,5001),
+(2,'No acepta monedas','Pago','2024-01-05','En proceso',101,5002),
+(3,'No calienta agua','CalefacciÃ³n','2024-01-07','Pendiente',102,5003),
+(4,'Error general','Sistema','2024-01-09','Resuelto',103,5004),
+(5,'Luz apagada','ElÃ©ctrica','2024-01-10','Pendiente',100,5005);

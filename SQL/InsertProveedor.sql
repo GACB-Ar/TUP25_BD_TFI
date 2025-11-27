@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Proveedor (Nombre, CUIT, Direccion, Calle, Altura, CodPostal, Telefono, CorreoElectronico)
-VALUES
-	('Distribuidora Sur', '30777888991', 'Av. Belgrano 1500', 'Av. Belgrano', '1500', '1001', '1141234567', 'ventas@distsur.com'),
-	('Snacks Plus', '30788999002', 'Av. Pueyrredón 300', 'Pueyrredón', '300', '1020', '1142234567', 'info@snacksplus.com'),
-	('Bebidas Argentinas', '30799000113', 'Calle Córdoba 2500', 'Córdoba', '2500', '1050', '1143234567', 'contacto@bebidas.com'),
-	('Café SA', '30800111224', 'Av. Santa Fe 500', 'Santa Fe', '500', '1070', '1144234567', 'ventas@cafesa.com'),
-	('Chocolates del Sol', '30811222335', 'Calle Lavalle 1200', 'Lavalle', '1200', '1040', '1145234567', 'info@chocosol.com');
+INSERT INTO PROVEEDOR VALUES
+('30500000011','Alimentos SA','11223344','contacto@alimsa.com','CÃ³rdoba','450','1000'),
+('30500000012','Bebidas SRL','11335577','ventas@bebidas.com','Corrientes','1234','1210'),
+('30500000013','DulcesMax','11446688','info@dulces.com','Sarmiento','800','1004'),
+('30500000014','CafÃ©Express','11557799','cafe@express.com','PerÃº','300','1001'),
+('30500000015','SnackCorp','11668811','soporte@snack.com','Florida','2000','1005');

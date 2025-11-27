@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO MaquinaExpendedora (Descripcion, EstadoOperativo, Ubicacion, Marca, Modelo, IDEstablecimiento)
-VALUES
-	('Máquina snacks', 'Operativa', 'Entrada', 'Coca-Cola', 'SNK100', 1),
-	('Máquina bebidas', 'Operativa', 'Pasillo', 'PepsiCo', 'DRK200', 2),
-	('Máquina café', 'En mantenimiento', 'Hall', 'Nescafé', 'CAF300', 3),
-	('Máquina mixta', 'Operativa', 'Patio', 'Bianchi', 'MIX400', 4),
-	('Máquina agua', 'Operativa', 'Recepción', 'EcoDrink', 'AQU500', 5);
+INSERT INTO MAQUINA VALUES
+(5001,'Snacks variados','Operativa','Entrada','Fabrimac','S100','20300000011'),
+(5002,'Bebidas frÃ­as','Operativa','Hall','AquaVend','AQ50','20300000012'),
+(5003,'CafÃ©','Operativa','Pasillo','CafExpress','CX10','20300000013'),
+(5004,'Combinada','Fuera de servicio','Sala','VendPro','VP20','20300000014'),
+(5005,'Snacks','Operativa','RecepciÃ³n','Fabrimac','S80','20300000015');

@@ -1,8 +1,7 @@
 USE TFI
-INSERT INTO Establecimiento (NombreComercial, CUIT, Direccion, Calle, Altura, CodPostal, TipoLugar, Descripcion, IDResponsable)
-VALUES
-	('Kiosco Central', '20301234567', 'Av. Rivadavia 1234', 'Av. Rivadavia', '1234', '1000', 'Kiosco', 'Ubicado en zona céntrica', 1),
-	('Super Norte', '27304567890', 'Av. San Martín 4567', 'Av. San Martín', '4567', '1400', 'Supermercado', 'Sucursal norte', 2),
-	('Tienda 24Hs', '20311223344', 'Calle Belgrano 789', 'Belgrano', '789', '1100', 'Tienda', 'Abierto todo el día', 3),
-	('MaxiKiosco Sur', '27322334455', 'Av. Mitre 1500', 'Av. Mitre', '1500', '1800', 'Kiosco', 'Zona sur', 4),
-	('MiniMarket Oeste', '20333445566', 'Calle Lavalle 200', 'Lavalle', '200', '1700', 'MiniMarket', 'Zona oeste', 5);
+INSERT INTO ESTABLECIMIENTO VALUES
+('20300000011','Kiosco Sol','Kiosco','San MartÃ­n','1222','1650','Kiosco cÃ©ntrico'),
+('20300000012','Universidad X','InstituciÃ³n','Belgrano','800','1428','Hall principal'),
+('20300000013','Hospital Norte','Hospital','Rivadavia','4500','1002','Sector de espera'),
+('20300000014','Supermercado Max','Supermercado','Mitre','2200','1640','Entrada'),
+('20300000015','Gimnasio ProFit','Gimnasio','Lavalle','900','1001','RecepciÃ³n');
