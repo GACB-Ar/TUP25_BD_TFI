@@ -1,11 +1,11 @@
 USE TFI
-CREATE TABLE Empleado (
-	Legajo INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Nombre NVARCHAR(50) NOT NULL,
-	Apellido NVARCHAR(50) NOT NULL,
-	DNI VARCHAR(10) NOT NULL,
-	Telefono NVARCHAR(20),
-	CorreoElectronico NVARCHAR(100),
-	Puesto NVARCHAR(50),
-	FechaIngreso DATE
+CREATE TABLE EMPLEADO (
+    legajo INT PRIMARY KEY,
+    nombre NVARCHAR(50),
+    apellido NVARCHAR(50),
+    dni VARCHAR(8),
+    telefono NVARCHAR(20),
+    correoElectronico NVARCHAR(100),
+    puesto NVARCHAR(50),
+    fechaIngreso DATE
 );

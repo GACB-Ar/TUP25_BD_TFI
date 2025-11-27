@@ -1,11 +1,11 @@
 USE TFI
-CREATE TABLE MaquinaExpendedora (
-	NroSerie INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Descripcion NVARCHAR(100),
-	EstadoOperativo NVARCHAR(50),
-	Ubicacion NVARCHAR(100),
-	Marca NVARCHAR(50),
-	Modelo NVARCHAR(50),
-	IDEstablecimiento INT,
-	FOREIGN KEY (IDEstablecimiento) REFERENCES Establecimiento(IDEstablecimiento)
+CREATE TABLE MAQUINA (
+    nroSerie INT PRIMARY KEY,
+    descripcion NVARCHAR(100),
+    estadoOperativo NVARCHAR(50),
+    ubicacion NVARCHAR(100),
+    marca NVARCHAR(50),
+    modelo NVARCHAR(50),
+    CUIT CHAR(11),
+    FOREIGN KEY (CUIT) REFERENCES ESTABLECIMIENTO(CUIT)
 );

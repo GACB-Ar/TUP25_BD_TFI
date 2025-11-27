@@ -1,12 +1,12 @@
 USE TFI
-CREATE TABLE Falla (
-	IDFalla INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Descripcion NVARCHAR(200),
-	TipoFalla NVARCHAR(50),
-	FechaReporte DATE,
-	Estado NVARCHAR(50),
-	NroSerie INT,
-	LegajoEmpleado INT,
-	FOREIGN KEY (NroSerie) REFERENCES MaquinaExpendedora(NroSerie),
-	FOREIGN KEY (LegajoEmpleado) REFERENCES Empleado(Legajo)
+CREATE TABLE FALLA (
+    IDFalla INT PRIMARY KEY,
+    descripcion NVARCHAR(200),
+    tipoFalla NVARCHAR(50),
+    fechaReporte DATE,
+    estado NVARCHAR(50),
+    legajo INT,
+    nroSerie INT,
+    FOREIGN KEY (legajo) REFERENCES EMPLEADO(legajo),
+    FOREIGN KEY (nroSerie) REFERENCES MAQUINA(nroSerie)
 );

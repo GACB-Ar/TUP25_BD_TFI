@@ -1,8 +1,8 @@
 USE TFI
-CREATE TABLE Vehiculo (
-	Patente CHAR(10) PRIMARY KEY NOT NULL,
-	Modelo NVARCHAR(50),
-	Capacidad INT,
-	Estado NVARCHAR(30),
-	FechaUltimoMantenimiento DATE
+CREATE TABLE VEHICULO (
+    patente CHAR(10) PRIMARY KEY,
+    modelo NVARCHAR(50),
+    capacidad INT,
+    estado NVARCHAR(30),
+    fechaUltimoMantenimiento DATE
 );

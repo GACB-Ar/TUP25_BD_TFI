@@ -1,9 +1,9 @@
 USE TFI
-CREATE TABLE Ruta (
-	IDRuta INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Fecha DATE,
-	LegajoRepositor INT,
-	Patente CHAR(10),
-	FOREIGN KEY (LegajoRepositor) REFERENCES Repositor(Legajo),
-	FOREIGN KEY (Patente) REFERENCES Vehiculo(Patente)
+CREATE TABLE RUTA (
+    IDRuta INT PRIMARY KEY,
+    fecha DATE,
+    legajo INT,
+    patente CHAR(10),
+    FOREIGN KEY (legajo) REFERENCES REPOSITOR(legajo),
+    FOREIGN KEY (patente) REFERENCES VEHICULO(patente)
 );

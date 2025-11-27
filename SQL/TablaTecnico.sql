@@ -1,5 +1,5 @@
 USE TFI
-CREATE TABLE Tecnico (
+CREATE TABLE TECNICO (
 	Legajo INT PRIMARY KEY,
 	FOREIGN KEY (Legajo) REFERENCES Empleado(Legajo)
 );

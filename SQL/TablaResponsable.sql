@@ -1,8 +1,10 @@
 USE TFI
-CREATE TABLE Responsable (
-	IDResponsable INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Nombre NVARCHAR(100),
-	Apellido NVARCHAR(100),
-	Telefono NVARCHAR(20),
-	CorreoElectronico NVARCHAR(100)
+CREATE TABLE RESPONSABLE (
+    IDResponsable INT PRIMARY KEY,
+    nombre NVARCHAR(100),
+    apellido NVARCHAR(100),
+    telefono NVARCHAR(20),
+    correoElectronico NVARCHAR(100),
+    CUIT CHAR(11),
+    FOREIGN KEY (CUIT) REFERENCES ESTABLECIMIENTO(CUIT)
 );

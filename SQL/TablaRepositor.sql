@@ -1,5 +1,5 @@
 USE TFI
-CREATE TABLE Repositor (
-	Legajo INT PRIMARY KEY,
-	FOREIGN KEY (Legajo) REFERENCES Empleado(Legajo)
-);
+CREATE TABLE REPOSITOR (
+    legajo INT PRIMARY KEY,
+    FOREIGN KEY (legajo) REFERENCES EMPLEADO(legajo)
+); 

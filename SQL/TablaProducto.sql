@@ -1,8 +1,8 @@
 USE TFI
-CREATE TABLE Producto (
-	CodProducto INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
-	Nombre NVARCHAR(100),
-	Categoria NVARCHAR(50),
-	FechaVencimiento DATE,
-	PrecioVenta DECIMAL(10,2)
+CREATE TABLE PRODUCTO (
+    codProducto INT PRIMARY KEY,
+    nombre NVARCHAR(100),
+    categoria NVARCHAR(50),
+    precioVenta DECIMAL(10,2),
+    fechaVencimiento DATE
 );
